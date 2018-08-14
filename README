@@ -1,0 +1,9 @@
+Extension triggers on a page matching the following URL: http://localhost:8001/*
+It reads "config" file in its directory and copies content to clipboard.
+Each time you visit k8s login page just press CTRL+V to insert a token into the input.
+
+Installation
+1. Create a symbolic link in the extension directory pointing to ~/.kube/config (ln -s ~/.kube/config config)
+2. Open Chrome, go to chrome://extensions
+3. Ensure "Developer mode" is on and select "Load unpacked extension..."
+4. Select this extension and enjoy
